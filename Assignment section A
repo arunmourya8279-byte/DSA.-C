@@ -1,0 +1,136 @@
+1. What is a data structure? Differentiate between linear and non-linear data structures.
+
+Data structure: A data structure is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
+
+Linear Data Structure
+
+	
+
+Non-linear Data Structure
+
+
+
+
+Data is arranged sequentially.
+
+	
+
+Data is arranged hierarchically or as a network.
+
+
+
+
+Example: Array, Stack, Queue.
+
+	
+
+Example: Tree, Graph.
+
+2. What is an array? Write two advantages and two disadvantages.
+
+Array: An array is a collection of elements of the same data type stored in contiguous memory locations.
+
+Advantages:
+
+Fast access to elements using an index.
+
+Easy to traverse and process data.
+
+Disadvantages:
+
+Usually has a fixed size.
+
+Insertion and deletion can be costly.
+
+3. Why is random access in an array O(1)?
+
+Random access in an array is O(1) because any element can be accessed directly using its index without traversing other elements.
+
+Example: A[5] accesses the element at index 5 directly.
+
+4. What are row-major and column-major order?
+
+Row-major order: Array elements are stored row by row in memory.
+
+Column-major order: Array elements are stored column by column in memory.
+
+5. What is a stack? Explain the LIFO principle.
+
+Stack: A stack is a linear data structure in which insertion and deletion take place at one end called the TOP.
+
+LIFO (Last In, First Out): The element inserted last is removed first.
+
+Example: A stack of plates.
+
+6. What are stack overflow and stack underflow?
+
+Stack overflow: Occurs when an element is pushed into a full stack.
+
+Stack underflow: Occurs when an element is popped from an empty stack.
+
+7. What is a queue? Explain the FIFO principle.
+
+Queue: A queue is a linear data structure in which insertion takes place at the rear and deletion takes place at the front.
+
+FIFO (First In, First Out): The element inserted first is removed first.
+
+Example: People standing in a ticket line.
+
+8. Write the four types of queues.
+
+The four types of queues are:
+
+Linear queue
+
+Circular queue
+
+Priority queue
+
+Double-ended queue (Deque)
+
+9. What is a priority queue?
+
+A priority queue is a data structure in which elements are processed according to their priority rather than simply their insertion order. If priorities are equal, FIFO may be followed.
+
+Example: A hospital emergency system.
+
+10. What is a deque?
+
+A deque (double-ended queue) is a linear data structure in which insertion and deletion can be performed at both the front and the rear ends.
+
+11. What is a call stack?
+
+A call stack is a memory structure used to manage function calls. It stores function information, parameters, and local variables. It follows the LIFO principle.
+
+12. Write three real-life applications of a stack.
+
+Undo and redo operations in text editors.
+
+Browser back-button history.
+
+Function calls and recursion.
+
+13. Write three real-life applications of a queue.
+
+Printer job scheduling.
+
+People waiting in a ticket line.
+
+CPU process scheduling.
+
+14. What are time complexity and space complexity?
+
+Time complexity: Measures how an algorithm's execution time grows with the input size.
+
+Space complexity: Measures how much memory an algorithm requires as the input size grows.
+
+15. Explain Big-O, Omega and Theta notations.
+
+These notations describe the growth rate of an algorithm's time or space requirements.
+
+Big-O O: Represents an asymptotic upper bound.
+
+Omega Ω: Represents an asymptotic lower bound.
+
+Theta Θ: Represents a tight asymptotic bound (both upper and lower).
+
